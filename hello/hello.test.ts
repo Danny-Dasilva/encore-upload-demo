@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { get } from "./hello";
+import { get } from ".";
 
 describe("get", () => {
   test("should combine string with parameter value", async () => {
